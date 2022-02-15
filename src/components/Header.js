@@ -3,7 +3,7 @@ import '../css/header.css';
 
 function Header(props) {
   return (
-    <div className="Header">
+    <div className="header">
       <section className="blog-name">
         <h1>{props.blogName}</h1>
       </section>

@@ -1,0 +1,42 @@
+.grid {
+    min-height: 100vh;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 20% 20rem 20rem 20%;
+    grid-template-rows: 4rem 1fr auto;
+    grid-row-gap: 10px;
+    grid-template-areas:
+    "header header header header"
+    ". picture info ."
+    "footer footer footer footer";
+  }
+
+.header {
+    padding: 1rem;
+    grid-area: header;
+}
+.picture {
+    grid-area: picture;
+}
+.info {
+    grid-area: info;
+}
+.footer {
+    grid-area: footer;
+}
+
+@media (max-width: 700px) {
+    .grid {
+        min-height: 100vh;
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 100%;
+        grid-template-rows: 4rem 1fr 1fr auto;
+        grid-row-gap: 10px;
+        grid-template-areas:
+        "header"
+        "picture"
+        "info"
+        "footer";
+      }
+}

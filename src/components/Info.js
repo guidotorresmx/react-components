@@ -1,8 +1,10 @@
+import '../css/index.css';
+import '../css/info.css';
 
 function Info() {
   return (
-    <div className="Info">
-      <header className="main-Info">
+    <div className="info">
+      <header className="main-info">
         <section className="blog about">
           <p>
             Hi, this is Marco, part-time sleeper, 

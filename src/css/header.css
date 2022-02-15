@@ -1,16 +1,33 @@
-.Header {
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-gap: 1rem;
+    background-color: #f5f5f533;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  
+
+.blog-name{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
+    flex-direction: row;
+    list-style-type: none;
+    padding-right: 1rem;  
+}
+
 .pages {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   list-style-type: none;
-  padding-right: 1rem;
+  padding: 1rem 1rem auto;
+
 }
 
 .pages>li {

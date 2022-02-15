@@ -1,7 +1,12 @@
+
+import '../css/index.css';
+import '../css/footer.css';
+
+
 function Footer() {
   return (
-    <div className="Footer">
-      <header className="App-Footer">
+    <div className="footer">
+      <header className="app-footer">
         <p>
           Copyleft. All rights unreserved.
         </p>

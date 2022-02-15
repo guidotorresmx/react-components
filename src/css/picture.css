@@ -1,0 +1,10 @@
+.profile{
+    max-width: 15rem;
+    max-height: 20rem;
+    display: flex;
+    justify-content: center;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+}
