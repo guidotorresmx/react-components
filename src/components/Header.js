@@ -8,9 +8,9 @@ function Header(props) {
       </section>
       <section className="blog-options">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Archives</li>
+          <li>{props.page1}</li>
+          <li>{props.page2}</li>
+          <li>{props.page3}</li>
         </ul>
       </section>  
       </header>
