@@ -5,7 +5,7 @@ function Footer() {
         <p>
           Copyleft. All rights unreserved.
         </p>
-\      </header>
+      </header>
     </div>
   );
 }

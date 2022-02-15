@@ -1,0 +1,21 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  list-style-type: none;
+  padding-right: 1rem;
+}
+
+.pages>li {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+  
